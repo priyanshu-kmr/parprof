@@ -43,7 +43,7 @@ The timeline shows load imbalance: with `schedule(static)`, threads finish one b
 ## Demos
 
 `demos/` has small programs with a deliberate bug: `false_sharing`, `imbalance`,
-`contention`, and `gpu_busy` (CUDA). Pass `--fixed` to run the corrected version
+`contention` (plain C + OpenMP), and `gpu_busy` (CUDA). Pass `--fixed` to run the corrected version
 and compare the two reports.
 
 ## How it works
