@@ -12,7 +12,7 @@ struct GpuSummary {
 
 // Samples NVIDIA GPU 0 through NVML. The library is loaded with dlopen, so
 // parprof builds and runs on machines without the NVIDIA driver.
-// Utilization and memory are device-wide, not limited to the profiled process.
+// Utilization and memory are device-wide, not limited to the profiled process
 class GpuSampler {
 public:
     GpuSampler();
